@@ -1,0 +1,29 @@
+_id: req_3a958288396244f78c1a25d1473ec328
+type: Request
+parentId: fld_20e3e1f11d504fc2b57d5d2a56b03d19
+modified: 1659487714086
+created: 1659487704053
+url: http://localhost/Supernac_API/read.php
+name: read_all_categories
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "parameter": "read_all_categories"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_180d1d52dc3a4a0d9058879dd8e11c7f
+authentication: {}
+metaSortKey: -1658888982412.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

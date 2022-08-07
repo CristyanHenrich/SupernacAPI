@@ -1,0 +1,31 @@
+_id: req_e81da74fba1941ceaf7f5cbd22f9dc11
+type: Request
+parentId: fld_20e3e1f11d504fc2b57d5d2a56b03d19
+modified: 1659487745738
+created: 1658888910997
+url: http://localhost/Supernac_API/read.php
+name: validate_login_administrator
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parameter" : "validate_login_administrator",
+    	"email" : "cristyanhenrich16@gmail.com",
+    	"password" : "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f966e4af00a0433783f3c19b13a27cc9
+authentication: {}
+metaSortKey: -1658888982509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

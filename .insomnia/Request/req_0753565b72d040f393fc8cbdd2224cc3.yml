@@ -1,0 +1,31 @@
+_id: req_0753565b72d040f393fc8cbdd2224cc3
+type: Request
+parentId: fld_20e3e1f11d504fc2b57d5d2a56b03d19
+modified: 1659405885769
+created: 1659316719225
+url: http://localhost/Supernac_API/read.php
+name: read_product_category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parameter" : "validate_login_user",
+    	"email" : "cristyanhenrich16@gmail.com",
+    	"password" : "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_180d1d52dc3a4a0d9058879dd8e11c7f
+authentication: {}
+metaSortKey: -1658888982421.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

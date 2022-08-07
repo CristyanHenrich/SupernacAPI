@@ -1,0 +1,30 @@
+_id: req_a7aeb0e448c643f6b86e3784348cfdbc
+type: Request
+parentId: fld_20e3e1f11d504fc2b57d5d2a56b03d19
+modified: 1659487749226
+created: 1659487730643
+url: http://localhost/Supernac_API/read.php
+name: read_user_cart
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "parameter": "read_user_cart",
+        "user_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_180d1d52dc3a4a0d9058879dd8e11c7f
+authentication: {}
+metaSortKey: -1658888982410.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

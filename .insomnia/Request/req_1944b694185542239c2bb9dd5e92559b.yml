@@ -1,0 +1,32 @@
+_id: req_1944b694185542239c2bb9dd5e92559b
+type: Request
+parentId: fld_11c5520874ab49109d6dc0902b27c56e
+modified: 1659473983861
+created: 1659304522127
+url: http://localhost/Supernac_API/create.php
+name: create_cart
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parameter" : "create_cart",
+    	"user_id" : 1,
+    	"product_id" : 3,
+    	"amount" : 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_180d1d52dc3a4a0d9058879dd8e11c7f
+authentication: {}
+metaSortKey: -1658888982259
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

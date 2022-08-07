@@ -1,0 +1,34 @@
+_id: req_6117225cbe6e41c486e0378628ad1ad1
+type: Request
+parentId: fld_9deafdb6f7974a9b9f8b5ca07b2bc958
+modified: 1659316358046
+created: 1658969759892
+url: http://localhost/Supernac_API/functiongenerate.php
+name: Generate Crud
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"function_name" : "create_categorie",
+    	"variables" : 
+    	[
+    	"name"
+    	],
+    	"database_table" : "categories"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4e83189e428403b9b061906f149df22
+authentication: {}
+metaSortKey: -1658969759892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

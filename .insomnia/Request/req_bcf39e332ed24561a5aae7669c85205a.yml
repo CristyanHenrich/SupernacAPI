@@ -1,0 +1,34 @@
+_id: req_bcf39e332ed24561a5aae7669c85205a
+type: Request
+parentId: fld_11c5520874ab49109d6dc0902b27c56e
+modified: 1659494895218
+created: 1658889239465
+url: http://localhost/Supernac_API/create.php
+name: create_user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parameter" : "create_user",
+    	"name" : "Cristyan",
+    	"cpf" : "141.632.816-57",
+    	"email" : "cristyanhenrich16@gmail.com",
+    	"password" : "123456",
+    	"picture" : "default.png"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_180d1d52dc3a4a0d9058879dd8e11c7f
+authentication: {}
+metaSortKey: -1658888982409
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
